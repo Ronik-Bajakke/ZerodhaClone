@@ -11,7 +11,7 @@ function Navbar() {
     }
   }, []);
 
-  const FRONTEND_URL = process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000";
+  const FRONTEND_URL = process.env.REACT_APP_FRONTEND_URL;
 
   const handleLogout = () => {
     localStorage.removeItem("token");
