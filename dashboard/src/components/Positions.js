@@ -4,17 +4,18 @@ import axios from "axios";
 const Positions = () => {
   const [positions, setPositions] = useState([]);
 
-  
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allPositions") 
+      .get(`${BACKEND_URL}/allPositions`)
       .then((res) => {
         setPositions(res.data);
       })
       .catch((err) => {
         console.error("Failed to fetch positions:", err);
       });
-  }, []);
+  }, [BACKEND_URL]);
 
   return (
     <>

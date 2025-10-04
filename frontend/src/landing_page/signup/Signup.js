@@ -6,17 +6,19 @@ function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Use environment variable for dashboard URL
-  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL || "http://localhost:5000/dashboard";
+  
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL;
 
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/signup", { email, password });
+      const res = await axios.post(`${BACKEND_URL}/api/signup`, { email, password });
 
+  
       localStorage.setItem("token", res.data.token);
 
-      // Redirect to dashboard dynamically
+     
       window.location.href = DASHBOARD_URL;
     } catch (err) {
       console.error(err);

@@ -5,17 +5,18 @@ import { VerticalGraph } from "./VerticalGraph";
 const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
-  
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allHoldings") 
+      .get(`${BACKEND_URL}/allHoldings`)
       .then((res) => {
         setAllHoldings(res.data);
       })
       .catch((err) => {
         console.error("Failed to fetch holdings:", err);
       });
-  }, []);
+  }, [BACKEND_URL]);
 
   const labels = allHoldings.map((subArray) => subArray.name);
 
