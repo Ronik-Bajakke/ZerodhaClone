@@ -24,15 +24,15 @@ This project provides live stock prices, watchlist management, interactive chart
 
 ## 🖼️ Screenshots  
 
-### ➕ Home Page
+### 🏠 Home Page
 ![Create Listing](/Assets/home.png)
 
 
-### 🏠 Watchlist And Holdings 
+### 💼 Watchlist And Holdings 
 ![Home Page](/Assets/watchlist.png)
 
 
-### 🗺️ Graph 
+### 📊 Graph 
 ![Map](/Assets/graph.png)
 
 
