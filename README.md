@@ -4,6 +4,10 @@
 
 ## 🎥 Project Demo
 
+https://github.com/user-attachments/assets/14b94020-4c3d-47bb-856d-0840d152f3d8
+
+
+
 ## 📖 Overview  
 A full-stack **Zerodha-like stock trading dashboard** built using **MEN + React**.  
 
