@@ -9,7 +9,7 @@ A full-stack **Zerodha-like stock trading dashboard** built using **MEN + React*
 
 This project provides live stock prices, watchlist management, interactive charts, and secure user authentication.  
 
-🔗 **Live Demo (Frontend)**: [https://zerodhaclone-3zmc.onrender.com](https://zerodhaclone-3zmc.onrender.com)  
+🔗 **Live Demo:** [ZerodhaClone on Render](https://zerodhaclone-3zmc.onrender.com)
 
 ## 🔹 Features
 
