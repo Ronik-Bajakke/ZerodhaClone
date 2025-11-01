@@ -79,34 +79,47 @@ Deployed with [Render](https://render.com) 🚀
 
 ## 📌 How to Run Locally  
 
+
+1. Clone repo
 ```bash
-# Clone repo
 git clone https://github.com/yourusername/zerodhaclone.git
-
-# Go inside
+```
+2. Go inside
+```bash
 cd zerodhaclone
+```
 
-# Install dependencies for backend and frontend
+3. Install dependencies for backend and frontend
+```bash
 cd backend
 npm install
 
 cd ../frontend
 npm install
+```
 
-# Setup environment variables (.env) in backend
+4. Setup environment variables (.env) in backend
+```bash
 MONGO_URL=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret_key
+```
 
-# Start backend
+5. Start backend
+```bash
 cd ../backend
 node index.js
+```
 
-# Start frontend
+6. Start frontend
+```bash
 cd ../frontend
 npm start
+```
 
-👨‍💻 Author
-Ronik Bajakke
+## 👨‍💻 Author  
 
-💼 Aspiring MERN Stack Developer
+**Ronik Bajakke**  
+💼 Aspiring MERN Stack Developer  
+🌐 Passionate about building meaningful, farmer-centric web solutions  
+
