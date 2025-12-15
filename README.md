@@ -124,7 +124,7 @@ npm start
 ## 👨‍💻 Author  
 
 **Ronik Bajakke**  
-💼 Aspiring MERN Stack Developer  
+💼 Aspiring MERN Stack Developer  <br>
 🌐 Passionate about building meaningful, farmer-centric web solutions <br>
 📧 Email: ronikbajakke172913@gmail.com<br>
 🌐 Portfolio: https://portfolio-nine-lyart-56.vercel.app/
